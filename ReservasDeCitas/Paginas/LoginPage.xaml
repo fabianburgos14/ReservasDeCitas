@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReservasDeCitas.Paginas.LoginPage"
+             Title="Loginpage">
+ 
+        <StackLayout Padding="20">
+            <Entry Placeholder="Tipo de Documento" x:Name="DocumentoEntry" />
+            <Entry Placeholder="Nombre de Usuario" x:Name="UsuarioEntry" />
+            <Entry Placeholder="Contraseña" IsPassword="True" x:Name="ContraseñaEntry" />
+        <Button Text="Iniciar Sesión" Clicked="IniciarSesion_Clicked" />
+                
+    </StackLayout>
+ 
+
+</ContentPage>
